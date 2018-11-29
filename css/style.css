@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+
+.fs-img1 { 
+    /* The image used */
+    background-image: url("/img/SadDad.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hs-img1 { 
+    /* The image used */
+    background-image: url("/img/turtle.jpeg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hs-img2 { 
+    /* The image used */
+    background-image: url("/img/beach-bird-s-eye-view-coast-50594.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue-transparent {
+    background-color: rgba(0,100,205,0.5);
+    
+}
+h1{
+    font-size: 10vh;
+    font-size; 10vw;
+    font-family: 'Lobster Two', cursive;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+p{
+    font-size: 40px;
+    font-family: 'Lobster Two', cursive;
+}
+
