@@ -17,7 +17,7 @@ body, html {
 
 .hs-img1 { 
     /* The image used */
-    background-image: url("/img/turtle.jpeg");
+    background-image: url("/img/pexels-photo-185032.jpeg");
 
     /* Full height */
     height: 50%; 
@@ -37,11 +37,52 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hs-img3{
+     /* The image used */
+    background-image: url("/img/beach-ocean-rocks-772647.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hs-img4{
+     /* The image used */
+    background-image: url("/img/beach-ocean-rocks-759982.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hs-img5{
+     /* The image used */
+    background-image: url("/img/coast-ocean-rocks-90759.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .blue-transparent {
     background-color: rgba(0,100,205,0.5);
     
 }
+.orange-transparent {
+    background-color: rgba(255, 147, 0, 0.38);
+}
+.gray-transparent {
+    background-color: rgba(159, 159, 159, 0.5);
+}
+.lblue-transparent {
+    background-color: rgba(0, 147, 255, 0.5);
+}
+    
 h1{
     font-size: 10vh;
     font-size; 10vw;
